@@ -1,5 +1,69 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    justify-content: center;
+    position:fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar li {
+    display:inline-block;
+    margin-right: 150px;
+    padding: 0 40px;
+}
+
+.navbar a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(52, 50, 50);
+}
+
+a:hover {
+    color: rgb(8, 171, 8);
+}
+
 .banner {
    background-color:chartreuse;
    text-align: center;
+   margin-top: 50px;
    color:white;
+   padding: 100px 0px;
+ 
+}
+
+#small-phanatic {
+    height: 140px;
+    width: 125px;
+    border-radius: 60px;
+    filter: drop-shadow(0 0 0.50rem black);
+
+}
+
+.phanatic-section {
+    padding: 20px 50px;
+}
+
+#phanatic {
+    color:rgb(8, 171, 8);
+    font-size: 100px;
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url;
+}
+
+.bold {
+    font-weight: 900;
 }
