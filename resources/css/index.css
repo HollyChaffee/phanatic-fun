@@ -59,6 +59,7 @@ a:hover {
 #greets ul {
     list-style-type: none;
     padding:0%;
+    
 }
 
 .avatar {
@@ -69,6 +70,7 @@ a:hover {
     display: inline-block;
     vertical-align: middle;
     padding: 10px;
+    
 }
 
 .bold {
