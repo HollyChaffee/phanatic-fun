@@ -58,10 +58,17 @@ a:hover {
 
 #greets ul {
     list-style-type: none;
+    padding:0%;
 }
 
 .avatar {
-    background-image: url;
+    background-image: url('../images/phanatic-avatar.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
 }
 
 .bold {
