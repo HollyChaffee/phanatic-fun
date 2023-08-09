@@ -5,19 +5,21 @@ body {
 .navbar {
     background-color: white;
     justify-content: center;
-    position:fixed;
+    position:relative;
     width: 100%;
-    top: 0%;
+  
 }
 
 .navbar ul {
     text-align: center;
+   
 }
 
 .navbar li {
     display:inline-block;
     margin-right: 150px;
-    padding: 0 40px;
+    padding: 10px 40px;
+  
 }
 
 .navbar a {
@@ -33,9 +35,9 @@ a:hover {
 .banner {
    background-color:chartreuse;
    text-align: center;
-   margin-top: 50px;
+   margin-top: 15px;
    color:white;
-   padding: 100px 0px;
+   padding: 25px 0px;
  
 }
 
