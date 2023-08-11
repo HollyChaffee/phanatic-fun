@@ -1,6 +1,12 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
+    
    
+}
+
+.low-opacity-body-image {
+    background-image: url(../images/phillies-baseball.png);
+  
 }
 
 .navbar {
@@ -34,16 +40,20 @@ a:hover {
     color: rgb(8, 171, 8);
 }
 
+h1 {
+    font-size: 60px;
+}
+
 .banner {
    background-color:chartreuse;
    text-align: center;
-   margin-top: 15px;
    color:white;
    padding: 25px 0px;
+  
  
 }
 
-#small-phanatic {
+#picture-phanatic {
     height: 140px;
     width: 125px;
     border-radius: 60px;
@@ -52,17 +62,24 @@ a:hover {
 }
 
 .phanatic-section {
+    text-align: right;
     padding: 20px 50px;
+}
+
+h2 {
+    text-align: center;
 }
 
 #phanatic {
     color:rgb(8, 171, 8);
-    font-size: 100px;
+    font-size: 75px;
+    font-weight: bold;
 }
 
 #greets ul {
     list-style-type: none;
-    padding:0%;
+    padding: 0px 0px 50px 50px;
+    
     
 }
 
@@ -75,8 +92,4 @@ a:hover {
     vertical-align: middle;
     padding: 10px;
     
-}
-
-.bold {
-    font-weight: 900;
 }
