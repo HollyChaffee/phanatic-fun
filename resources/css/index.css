@@ -10,23 +10,24 @@ body {
 }
 
 .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: white;
-    justify-content: center;
     position:relative;
     width: 100%;
+    margin-left: -60px;
   
-}
-
-.navbar ul {
-    text-align: center;
-   
 }
 
 .navbar li {
-    display:inline-block;
-    margin-right: 150px;
+    display: flex;
     padding: 10px 40px;
   
+}
+
+.plb {
+    margin-right: 2rem;
 }
 
 .navbar a {
@@ -63,8 +64,10 @@ h1 {
 }
 
 .form-section {
-    text-align: right;
-    padding: 20px 9rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9rem;
+    padding: 20px 0px 0px 0px;
 }
 
 h2 {
