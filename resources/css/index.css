@@ -42,6 +42,7 @@ a:hover {
 
 h1 {
     font-size: 60px;
+
 }
 
 .banner {
@@ -61,12 +62,13 @@ h1 {
 
 }
 
-.phanatic-section {
+.form-section {
     text-align: right;
-    padding: 20px 50px;
+    padding: 20px 9rem;
 }
 
 h2 {
+    padding-top: 0.5rem;
     text-align: center;
 }
 
@@ -78,9 +80,9 @@ h2 {
 
 #greets ul {
     list-style-type: none;
-    padding: 0px 0px 50px 50px;
-    
-    
+    font-size: 18px;
+    padding: 0px 0px 50px 8rem;
+   
 }
 
 .avatar {
